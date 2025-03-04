@@ -27,7 +27,7 @@ print_str:
 done:
     ret
 
-msg db 'Hello World!',' tomcat12', 0   ; 要显示的字符串
+msg db 'Hello World!',' tom', 0   ; 要显示的字符串
 
 times 510 - ($ - $$) db 0  ; 填充剩余空间
 dw 0xAA55                  ; 引导扇区结束标志
