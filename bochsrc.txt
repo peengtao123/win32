@@ -1,0 +1,15 @@
+# 基本配置
+megs: 256
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+
+# 磁盘设置
+floppya: 1_44=floppy.img, status=inserted
+
+# 启动设置
+boot: floppy
+
+# 调试选项（可选）
+debug: action=ignore
+display_library: x, options="gui_debug"
