@@ -1,5 +1,5 @@
 section .data
-    hello db 'Hello, World!', 0  ; 定义一个字符串 "Hello, World!" 并以空字符结尾
+    hello db 'Hello,world!', 0  ; 定义一个字符串 "Hello,world!" 并以空字符结尾
 
 section .text
     global main  ; 声明 main 函数为全局符号
